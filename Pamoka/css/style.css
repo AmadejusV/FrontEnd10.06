@@ -1,0 +1,50 @@
+.container{
+	margin:100px auto;
+	width: 75%;
+	text-align: center;
+	background-color: #ffdb4d;
+	height: 500px;
+	position: relative;
+}
+
+.container div{
+	margin:0 auto;
+	width: 200px;
+	height: 200px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 200px;
+	position: absolute;
+}
+
+.container div:nth-child(1){
+	position: absolute;
+	background-color: #ccffcc;
+	bottom: 0;
+	right: 0;
+}
+.container div:nth-child(2){
+	position: absolute;
+	background-color: #ffb3ff;
+	bottom: 0;
+	left: 0;
+}
+.container div:nth-child(3){
+	position: absolute;
+	background-color: #ffe6cc;
+	z-index: 3;
+	top: 0;
+	left: 0;
+}
+.container div:nth-child(4){
+	position: absolute;
+	background-color: #ccf5ff;
+	top: 0;
+	right: 0;
+}
+.container div:nth-child(5){
+	position: absolute;
+	background-color: #ccffeb;
+	right: 43%;
+	top: 30%;
+}

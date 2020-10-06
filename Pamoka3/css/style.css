@@ -1,0 +1,49 @@
+
+.container{
+	
+}
+h3{
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+main{
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+}
+header{
+	height: 100px;
+	background-color: #80e5ff;
+}
+
+.hero{
+	height: 40%;
+	width: 35%;
+	background-color: #ffccff;
+}
+.main{
+	height: 75%;
+	width:65%;
+	background-color: #ffd633;
+}
+.sidebar{
+	height: 60%;
+	width: 35%;
+	background-color: #53c68c;
+}
+.extra{
+	height: 25%;
+	width: 65%;
+	background-color: #527a7a;
+}
+.relatedImg{
+	background-color: #00b359;
+}
+.relatedPosts{
+	background-color: #ffccff;
+}
+
+footer{
+	background-color: #ff9900;
+}
